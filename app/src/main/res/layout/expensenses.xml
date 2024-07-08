@@ -32,6 +32,7 @@
             android:layout_marginTop="24dp"
             android:layout_marginEnd="7dp"
             android:text="Salary"
+            android:fontFamily="@font/teachers"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/tvMoneyAction"
@@ -39,6 +40,7 @@
 
         <TextView
             android:id="@+id/tvAmount"
+            android:fontFamily="@font/teachers"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -56,6 +58,7 @@
             android:layout_marginTop="52dp"
             android:layout_marginEnd="16dp"
             android:text="1 July 2024"
+            android:fontFamily="@font/teachers"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>

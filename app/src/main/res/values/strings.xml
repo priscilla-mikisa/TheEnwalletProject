@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TheEnWallet</string>
+    <string name="money_in">MONEY IN</string>
+    <string name="money_out">MONEY OUT</string>
+    <string name="balance">BALANCE</string>
+    <string name="transactions">TRANSACTIONS</string>
 </resources>

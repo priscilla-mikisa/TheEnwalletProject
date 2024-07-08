@@ -36,7 +36,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:cardCornerRadius="8dp"
-        app:cardElevation="8dp">
+        app:cardElevation="8dp"
+        android:background="@drawable/rounded_form"
+        >
 
 
         <ImageView
@@ -89,13 +91,16 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="220dp"
-            android:text="MONEY IN"
+            android:fontFamily="@font/teachers"
+            android:text="@string/money_in"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
+            android:fontFamily="@font/teachers"
             android:layout_height="wrap_content"
             android:layout_marginEnd="216dp"
             android:layout_marginBottom="32dp"
@@ -108,8 +113,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
+            android:fontFamily="@font/teachers"
             android:layout_marginEnd="20dp"
-            android:text="MONEY OUT"
+            android:text="@string/money_out"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -119,6 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="28dp"
             android:layout_marginBottom="28dp"
+            android:fontFamily="@font/teachers"
             android:text="KES 28900"
             app:layout_constraintBottom_toTopOf="@+id/textView9"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -128,8 +136,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="24dp"
+            android:fontFamily="@font/teachers"
             android:layout_marginBottom="32dp"
-            android:text="BALANCE"
+            android:text="@string/balance"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/textView8"
             app:layout_constraintEnd_toStartOf="@+id/imageView4" />
 
@@ -140,6 +150,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="36dp"
             android:text="KES 18700"
+            android:fontFamily="@font/teachers"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/imageView4" />
 
@@ -148,8 +159,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
+            android:fontFamily="@font/teachers"
             android:layout_marginBottom="12dp"
-            android:text="TRANSACTIONS"
+            android:text="@string/transactions"
+            android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/textView10"
             app:layout_constraintEnd_toEndOf="parent" />
 
@@ -160,6 +173,7 @@
             android:layout_marginEnd="84dp"
             android:layout_marginBottom="36dp"
             android:text="8"
+            android:fontFamily="@font/teachers"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
 
